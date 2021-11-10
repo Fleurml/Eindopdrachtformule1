@@ -4,4 +4,4 @@ folium==0.12.1
 plotly==5.3.1
 statsmodels==0.12.2
 streamlit==0.89.0
-folium_static(m)
+streamlit-folium==0.4.0
