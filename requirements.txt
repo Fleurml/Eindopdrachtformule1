@@ -3,3 +3,4 @@ numpy==1.20.1
 folium==0.12.1
 plotly==5.3.1
 statsmodels==0.12.2
+streamlit==0.89.0
