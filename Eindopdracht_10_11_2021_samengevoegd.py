@@ -581,9 +581,9 @@ add_categorical_legend(m, 'Winnaar van de race',
 folium.LayerControl(position='topleft', collapsed=False).add_to(m)
 m
 
-# with col4:
-#     st.header('Kaart circuits')
-#     folium_static(m)
+with col4:
+  st.header('Kaart circuits')
+  folium_static(m)
 
 
 # In[40]:
