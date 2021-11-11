@@ -579,7 +579,7 @@ m.get_root().html.add_child(folium.Element(title_html))
 
 add_categorical_legend(m, 'Winnaar van de race', 
                        colors = ['aqua', 'lightgreen', 'darkorange', 'darkblue', 'red', 'black', 'darkred', 'yellow', 'grey', 'green'], 
-                       labels = ['Hamilton', 'Rosberg','Ricciardo','Verstappen', 'Vettel', 'Alonso', 'Raikkonen', 'Webber', 'Button', 'Maldonado']).add_to(m)
+                       labels = ['Hamilton', 'Rosberg','Ricciardo','Verstappen', 'Vettel', 'Alonso', 'Raikkonen', 'Webber', 'Button', 'Maldonado'])
 
 
 
