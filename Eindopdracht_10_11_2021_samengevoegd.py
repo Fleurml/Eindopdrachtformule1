@@ -132,7 +132,7 @@ fig1 = px.histogram(laptimes_spanje_2016, x='seconds',
 fig1.update_layout(title= {'text':'Ronde tijden race Spanje 2016', 'x':0.39, 'y':0.95},
                   xaxis= {'title': {'text': 'Laptime (s)'}},
                   yaxis= {'title':{'text': 'Count'}}, 
-                  width=650, height=400)
+                  width=550, height=350)
 #fig1.show()
 
 
@@ -197,7 +197,7 @@ fig3 = px.scatter(laptimes_spanje_2016_ZU,
 fig3.update_layout(title= {'text':'Laptimes in seconds Spain 2016', 'x':0.43, 'y':0.95},
                   xaxis= {'title': {'text': 'Lap'}},
                   yaxis= {'title':{'text': 'Laptime (s)'}, 'range':(86, 100)}, 
-                  width=650, height=400, 
+                  width=550, height=350, 
                   legend_title='Drivers', 
                   legend= dict( yanchor="top",
                               y=0.95,
@@ -327,7 +327,7 @@ fig5 = px.line(results_test,
 fig5.update_layout(title= {'text':'Ronde tijden race Spanje 2016', 'x':0.39, 'y':0.95},
 #                   xaxis= {'title': {'text': 'Laptime (s)'}},
 #                   yaxis= {'title':{'text': 'Count'}}, 
-                  width=700, height=400)
+                  width=550, height=350)
 fig5.show()
 
 
