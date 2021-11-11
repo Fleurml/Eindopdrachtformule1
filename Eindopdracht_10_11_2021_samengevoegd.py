@@ -226,7 +226,7 @@ model.summary()
 
 with col4:
   st.header('Regressiemodel')
-  st.caption('Regressiemodel')
+  st.write('Regressiemodel')
 
 
 # ## Histogram pitstop tijden
