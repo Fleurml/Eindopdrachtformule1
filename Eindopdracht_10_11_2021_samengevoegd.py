@@ -135,7 +135,7 @@ fig1.update_layout(title= {'text':'Ronde tijden race Spanje 2016', 'x':0.39, 'y'
 
 # Streamlit Histogram
 with Hist:
-    st.subheader('Histogram')
+    # st.subheader('Histogram')
     st.plotly_chart(fig1)
 
 
@@ -207,7 +207,7 @@ fig3.update_layout(title= {'text':'Laptimes in seconds Spain 2016', 'x':0.43, 'y
 
 # Streamlit spreidingsdiagram
 with Spreid:
-    st.subheader('Spreidingsdiagram')
+    # st.subheader('Spreidingsdiagram')
     st.plotly_chart(fig3)
 
 
@@ -358,7 +358,7 @@ fig5.update_layout(title= {'text':'Mean laptimes in seconds per year of circuits
 
 # Streamlit lijndiagram
 with Lijn:
-    st.subheader('Lijndiagram')
+    # st.subheader('Lijndiagram')
     st.plotly_chart(fig5)
 
 
