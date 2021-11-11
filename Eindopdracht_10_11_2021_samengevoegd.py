@@ -229,7 +229,7 @@ with col4:
     st.latex(r''' Y = Rondetijd, X = Ronde ''')
     st.latex(r''' Y = -0.0333X + 92.7113 ''')
     st.write('Per ronde die een coureur rijdt gaat de rondetijd met 0.03 seconden naar beneden. '
-             'Het model heeft een R-squared van 0.140. Dit betekent dat het model voor 14% goed kan voorspellen.'
+             'Het model heeft een R-squared van 0.140. Dit betekent dat het model voor 14% goed kan voorspellen. '
              'Dit is een redelijk laag getal, waarschijnlijk omdat het model op basis is van alle coureurs ' 
              'en niet alle coureurs dezelfde trend hebben. ' 
              'De P-waardes van de coëfficienenten zijn nul dat betekent dat er een statistisch significant verschil is. '
