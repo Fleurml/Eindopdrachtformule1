@@ -483,7 +483,7 @@ def add_categorical_legend(folium_map, title, colors, labels):
 
 
 # Kaart maken
-m = folium.Map(width=550,height=300, tiles = 'cartodb positron')
+m = folium.Map(width=600,height=350, tiles = 'cartodb positron')
 
 jaar2010 = folium.FeatureGroup(name="2010", show=False).add_to(m)
 jaar2011 = folium.FeatureGroup(name="2011", show=False).add_to(m)
