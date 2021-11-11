@@ -38,7 +38,7 @@ col1, col2, col3 = st.columns(3)
 # In[5]:
 
 
-#col3, col4 = st.columns(2)
+col4 = st.columns(1)
 
 
 # In[6]:
