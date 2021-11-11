@@ -29,7 +29,7 @@ st.title('Formule1')
 st.write('Over de formule 1')
 
 st.info('De gebruikte data komt van Kaggle. '
-        'https://www.kaggle.com/cjgdev/formula-1-race-data-19502017?select=lapTimes.csv ' 
+        'https://www.kaggle.com/cjgdev/formula-1-race-data-19502017?select=lapTimes.csv. ' 
         'We hebben gebruikt gemaakt van de datasets: circuits, drivers, lapTimes, pitStops, races en results')
 
 
