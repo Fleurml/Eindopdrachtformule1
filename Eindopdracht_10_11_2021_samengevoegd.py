@@ -607,7 +607,7 @@ with col5:
 image = 'legenda.PNG'
 
 with col6:
-    st.header('Legen')
+    st.header(' ')
     st.image(image, width=None)
 
 
