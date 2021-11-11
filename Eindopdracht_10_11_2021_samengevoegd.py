@@ -22,7 +22,7 @@ from streamlit_folium import folium_static
 # In[2]:
 
 
-st.title('Formule 1 1950-2016')
+st.title('Formule 1: 1950-2016')
 
 
 # In[3]:
