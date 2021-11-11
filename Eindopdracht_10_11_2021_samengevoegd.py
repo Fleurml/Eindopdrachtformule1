@@ -207,7 +207,7 @@ fig3.update_layout(title= {'text':'Laptimes in seconds Spain 2016', 'x':0.43, 'y
 
 # Streamlit spreidingsdiagram
 with Spreid:
-    # st.subheader('Laptimes in seconds Spain 2016')
+    st.subheader('Laptimes in seconds Spain 2016')
     st.plotly_chart(fig3)
 
 
@@ -358,7 +358,7 @@ fig5.update_layout(title= {'text':'Mean laptimes of circuits in seconds per year
 
 # Streamlit lijndiagram
 with Lijn:
-    # st.subheader('Mean laptimes of circuits in seconds per year')
+    st.subheader('Mean laptimes of circuits in seconds per year')
     st.plotly_chart(fig5)
 
 
