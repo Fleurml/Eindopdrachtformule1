@@ -242,7 +242,7 @@ with Regres:
     st.write('Per ronde die een coureur rijdt gaat de rondetijd met 0.03 seconden naar beneden. '
              'Het model heeft een R-squared van 0.140. Dit betekent dat het model voor 14% goed kan voorspellen. '
              'Dit is een redelijk laag getal, waarschijnlijk omdat het model op basis is van alle coureurs ' 
-             'en niet alle coureurs dezelfde trend hebben. ' 
+             'en niet alle coureurs dezelfde trend hebben. Ook is het op basis van één race, er zijn veel factoren die het model kunnen beinvloeden. Bijvoorbeeld windvlagen en ongelukken. Als we meerdere races hadden onderzocht hadden we een nauwkeuriger model kunnen maken.' 
              'De P-waardes van de coëfficienenten zijn nul dat betekent dat er een statistisch significant verschil is. '
              'De gevonden coëfficienten zijn niet met toeval gevonden.')
 
