@@ -237,7 +237,7 @@ model.summary()
 # Streamlit lineair model
 with Regres:
     st.subheader('Regressiemodel')
-    st.latex(r''' Y = Rondetijd in seconde,  X = Ronde ''')
+    st.latex(r''' Y = Rondetijd (seconden),  X = Ronde ''')
     st.latex(r''' Y = -0.0333X + 92.7113 ''')
     st.write('Per ronde die een coureur rijdt gaat de rondetijd met 0.03 seconden naar beneden. '
              'Het model heeft een R-squared van 0.140. Dit betekent dat het model voor 14% goed kan voorspellen. '
