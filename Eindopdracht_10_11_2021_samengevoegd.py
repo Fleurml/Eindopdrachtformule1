@@ -132,7 +132,7 @@ fig1 = px.histogram(laptimes_spanje_2016, x='seconds',
                    color_discrete_sequence=['indianred']
                    )
 
-fig1.update_layout(title= {'text': 'Ronde tijden race Spanje 2016', 'x':0.39, 'y':0.95},
+fig1.update_layout(title= {'text': 'Laptimes in seconds Spain 2016', 'x':0.39, 'y':0.95},
                   xaxis= {'title': {'text': 'Laptime (s)'}},
                   yaxis= {'title':{'text': 'Count'}}, 
                   width=550, height=375)
